@@ -1,0 +1,123 @@
+/* Background of App */
+
+.App{
+    text-align: center;
+}
+
+.App-header{
+    background-color: #0b0b0b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px = 2vmin);
+    color: white;
+}
+
+/* Everything in the navigation box start here */
+
+#Nav-box{
+    width: 120px;
+    height: 770px;
+    background-color: #2a2a2a;
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.App-logo{
+    height: 110px;
+    pointer-events: none;
+    float: left;
+    margin-top: 10px;
+    margin-left: -18px;
+    opacity: 70%;
+}
+
+.Home-icon{
+    width: 50px;
+    float: left;
+    margin-left: -3px;
+    margin-top: 100px;
+}
+
+.Compare-icon{
+    width: 50px;
+    float: left;
+    margin-left: -3px;
+    margin-top: 80px;
+}
+
+.Timeline-icon{
+    width: 40px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 80px;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* Infromation box */
+
+#Information-box{
+    width: 1260px;
+    height: 200px;
+    background-color: #2a2a2a;
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+p1{
+    opacity: 70%;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size:larger;
+    color: darkgrey;
+}
+
+/* Car Model */
+
+.Card{
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #2a2a2a;
+}
+
+.Stats1{
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 590px;
+    background-color: #2a2a2a;
+    width: 690px;
+}
+
+.Stats{
+    border-radius: 30px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 590px;
+    background-color: #2a2a2a;
+    width: 690px;
+}
+
+p{
+    opacity: 70%;
+    float: left;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: small;
+    color: darkgrey;
+}
+
