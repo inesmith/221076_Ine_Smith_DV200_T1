@@ -1,0 +1,26 @@
+#Nav-box{
+    width: 120px;
+    height: 770px;
+    background-color: #2a2a2a;
+    border-radius: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .App-logo{
+    height: 110px;
+    pointer-events: none;
+    float: left;
+    margin-top: 10px;
+    margin-left: -18px;
+    opacity: 70%;
+  }
+  
+  .Home-icon{
+    width: 50px;
+    float: left;
+    margin-left: -3px;
+    margin-top: 100px;
+  }
+  

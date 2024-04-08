@@ -1,64 +1,24 @@
-import logo from './Asset 12@8x.png';
-import home from './icons8-home (1).svg';
-import compare from './Asset 2@8x.png';
-import timeline from './Asset 1@8x.png';
-import profile from './Profile.svg';
 import React from 'react';
-import './LandingPage.css';
-import './ComparePage';
-import './TimelinePage';
+import './index.css';
 import Image from './Porsche.jpeg';
 import Card from 'react-bootstrap/Card';
 import CardBody from 'react-bootstrap/esm/CardBody';
 import CardHeader from 'react-bootstrap/esm/CardHeader';
 import CardTitle from 'react-bootstrap/esm/CardTitle';
-import {BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
 
-
-function App() {
+function LandingPage() {
     return (
         <div className='App-header'>
             <div className='App'>
-                <div id='Nav-box'>
-                    <Router>
-                    <nav className='Nav'>
-                    <ul>
-                        <li>
-                            <img src={logo} className='App-logo' alt='logo' />
-                        </li>
-
-                        <li>
-                            <img src={home} className='Home-icon' alt='home'  />
-                        </li>
-
-                        <li>
-                            <img src={compare} className='Compare-icon' alt='compare' />
-                        </li>
-
-                        <li>
-                            <img src={timeline} className='Timeline-icon' alt='timeline' />
-                        </li>
-                    </ul>
-                    </nav>
-                    <Routes>
-                        <Route path='/LandingPage' element={home}/>
-                        <Route path='/ComparePage' element={compare}/>
-                        <Route path='/TimelinePage' element={timeline}/>
-                    </Routes>
-                    </Router>
-
-                    <div>
-                        <img src={profile} className='Profile' alt='profile' style={{ width: '50px', marginTop: '140px'}} />
-                        <h3 style={{ fontWeight: 'bold', color: '#f89306', opacity: '70%', marginTop: '10px', width: '120px'}}>Iné</h3>
-                    </div>
-                </div>
-
                 <div id='Information-box'>
                     <h1 style={{ fontWeight: 'bold', color: '#f89306', opacity: '70%' }}>Welcome Back</h1>
-                    <p1>With this API you will be able to compare your favorite vintage sports car with its brand new model, <div />
+                    <h2>With this API you will be able to compare your favorite vintage sports car with its brand new model, <div />
                         so that you as a buyer will be able to see the difference in the specs, designs and more, <div />
                         it will also make the task of seeing which car will be best of value to you easier.
-                    </p1>
+                    </h2>
+                    <div>
+                        <Button id="button" variant="link" style={{ backgroundColor: '#f89306', WebkitBorderRadius: '30px', width: '100px', height: '30px', marginTop: '20px', borderBlockStyle: 'outset', opacity: '70%' }}>Start</Button>
+                    </div>
                 </div>
 
                 <div className='Card' style={{ width: '1260px', }}>
@@ -159,10 +119,12 @@ function App() {
                         </CardBody>
                     </Card>
                 </div>
+
             </div>
 
         </div>
     );
 }
 
-export default App;
+
+export default LandingPage;

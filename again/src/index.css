@@ -1,0 +1,124 @@
+/* Background App*/
+
+.App{
+  text-align: center;
+}
+
+.App-header{
+  background-color: #0b0b0b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px = 2vmin);
+  color: white;
+}
+
+/* Landing  Page */
+
+.Compare-icon{
+  width: 50px;
+  float: left;
+  margin-left: -3px;
+  margin-top: 80px;
+}
+
+.Timeline-icon{
+  width: 40px;
+  float: left;
+  margin-left: 3px;
+  margin-top: 80px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.Card{
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #2a2a2a;
+}
+
+.Stats1{
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 590px;
+  background-color: #2a2a2a;
+  width: 690px;
+}
+
+.Stats{
+  border-radius: 30px;
+  float: left;
+  margin-top: 17px;
+  margin-left: 590px;
+  background-color: #2a2a2a;
+  width: 690px;
+}
+
+#Information-box{
+  width: 1260px;
+  height: 200px;
+  background-color: #2a2a2a;
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Arial';
+}
+
+h1{
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h2{
+  opacity: 70%;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size:larger;
+  color: darkgrey;
+}
+
+/*  Compare Page */
+
+#Compare-box{
+  width: 1260px;
+  height: 200px;
+  background-color: #2a2a2a;
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'Arial';
+}
+
+.Box1{
+  width: 590px;
+  height: 400px;
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Box2{
+  width: 590px;
+  height: 400px;
+  border-radius: 30px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Info-Box{
+  width: 90px;
+  height: 400px;
+  border-radius: 30px;
+  float: right;
+}
+
+/* TimeLine Page */
